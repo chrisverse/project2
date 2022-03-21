@@ -1,0 +1,151 @@
+body {
+	
+	background: white url("../images/img1.jpg") no-repeat center;
+	background-size: 100%;
+	color: #FFF;
+	font-family: 'Roboto', sans-serif;
+}
+
+body a {
+	
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	text-decoration: none;
+
+}
+
+form, fieldset {
+
+	margin: 0 auto;
+	width: 900px;
+	height: 500px;
+	padding: 1em;
+	border: 1px solid #CCC;
+	border-radius: 1em;
+}
+
+form {
+
+	margin-top: 50px;
+	background-color: #00405d90;
+
+}
+
+progress {
+
+	width: 790px;
+
+}
+
+form div + div {
+	
+	margin-top: 1em;
+
+}
+
+a{
+	border-radius: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: dodgerblue;
+	color: white;
+	transition-duration: 0.4s;
+	border-color: white;
+	border-style: none;
+	margin-left: 9px;
+}
+
+a:hover {
+
+	box-shadow: 0 5px 5px 0 white, 0 17px 50px 0 rgba(0,0,0,0.19);
+	color: white;
+
+}
+
+#sup{
+
+	background-color: red;
+
+}
+
+table {
+  table-layout: fixed;
+  width: 95%;
+  border-collapse: collapse;
+  text-shadow: 1px 1px 1px black;
+  border-radius: 30px;
+  border: 1px solid #CCC;
+  margin-left: 12px;
+}
+
+
+th{
+
+	width: 40%;
+	height: 30px;
+	font-family: 'Rock Salt', cursive;
+	letter-spacing: 2px;
+	text-align: center;
+	background: #00405d;
+	border-right: 1px solid white;
+
+}
+
+#th1{
+
+	border-right: none;
+
+}
+
+td{
+
+	letter-spacing: 1px;
+	text-align: center;
+	border-bottom: 1px solid white;
+	width: 40%;
+	height: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+tr: hover{
+
+	background-color: gray;
+
+}
+
+#b2, #b1{
+
+		border-radius: 20px;
+		border-style: none;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 5px;
+		padding-top: 5px;
+		margin-bottom: 10px;
+		margin-top: 2%;
+		text-shadow: 1px 1px 1px black;
+}
+#b2{
+
+			background-color: red;
+			color: white;
+			margin-left: 5%;
+}
+#b1{
+
+		background-color: dodgerblue;
+		margin-left: 5%;
+
+}
+
+#b2:hover{
+
+	box-shadow: 0 5px 5px 0 white, 0 17px 50px 0 rgba(0,0,0,0.19);
+	color: white;
+
+}

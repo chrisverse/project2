@@ -1,0 +1,86 @@
+body {
+	
+	background: white url("../images/img1.jpg") no-repeat center;
+	background-size: 100%;
+	color: #FFF;
+	font-family: 'Roboto', sans-serif;
+}
+
+body a {
+	
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	text-decoration: none;
+
+}
+
+form, fieldset {
+
+	margin: 0 auto;
+	width: 600px;
+	height: 400px;
+	padding: 1em;
+	border: 1px solid #CCC;
+	border-radius: 1em;
+}
+
+form {
+
+	margin-top: 90px;
+	background-color: #00405d90;
+
+}
+
+form div + div {
+	
+	margin-top: 1em;
+
+}
+
+button{
+
+	border-radius: 5px;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+	background-color: #00405d;
+	color: white;
+	transition-duration: 0.4s;
+	border-color: white;
+	border-style: ridge;
+	margin-left: 24%;
+	margin-right: 34%;
+	width: 300px;
+	height: 50px;
+
+}
+
+button:hover {
+
+	background-color: dodgerblue;
+	box-shadow: 0 12px 12px 0 white, 0 17px 50px 0 rgba(0,0,0,0.19);
+	color: white;
+
+}
+
+label {
+
+	display: inline-block;
+	width: 150px;
+	text-align: right;
+	margin-left: 0px;
+
+}
+#l1{
+
+	width: 100%;
+	text-shadow: 1px 1px 1px black;
+	font-family: 'Rock Salt', cursive;
+
+}
